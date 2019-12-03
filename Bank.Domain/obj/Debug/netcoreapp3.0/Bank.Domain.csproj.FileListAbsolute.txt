@@ -1,0 +1,7 @@
+C:\Git\Bank_WebApi\Bank.Domain\bin\Debug\netcoreapp3.0\Bank.Domain.deps.json
+C:\Git\Bank_WebApi\Bank.Domain\bin\Debug\netcoreapp3.0\Bank.Domain.dll
+C:\Git\Bank_WebApi\Bank.Domain\bin\Debug\netcoreapp3.0\Bank.Domain.pdb
+C:\Git\Bank_WebApi\Bank.Domain\obj\Debug\netcoreapp3.0\Bank.Domain.AssemblyInfoInputs.cache
+C:\Git\Bank_WebApi\Bank.Domain\obj\Debug\netcoreapp3.0\Bank.Domain.AssemblyInfo.cs
+C:\Git\Bank_WebApi\Bank.Domain\obj\Debug\netcoreapp3.0\Bank.Domain.dll
+C:\Git\Bank_WebApi\Bank.Domain\obj\Debug\netcoreapp3.0\Bank.Domain.pdb

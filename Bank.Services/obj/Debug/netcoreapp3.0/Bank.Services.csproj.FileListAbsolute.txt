@@ -1,0 +1,15 @@
+C:\Git\Bank_WebApi\Bank.Services\obj\Debug\netcoreapp3.0\Bank.Services.csprojAssemblyReference.cache
+C:\Git\Bank_WebApi\Bank.Services\obj\Debug\netcoreapp3.0\Bank.Services.AssemblyInfoInputs.cache
+C:\Git\Bank_WebApi\Bank.Services\obj\Debug\netcoreapp3.0\Bank.Services.AssemblyInfo.cs
+c:\Git\Bank_WebApi\Bank.Services\bin\Debug\netcoreapp3.0\Bank.Services.deps.json
+c:\Git\Bank_WebApi\Bank.Services\bin\Debug\netcoreapp3.0\Bank.Services.dll
+c:\Git\Bank_WebApi\Bank.Services\bin\Debug\netcoreapp3.0\Bank.Services.pdb
+c:\Git\Bank_WebApi\Bank.Services\bin\Debug\netcoreapp3.0\Bank.Contracts.dll
+c:\Git\Bank_WebApi\Bank.Services\bin\Debug\netcoreapp3.0\Bank.Domain.dll
+c:\Git\Bank_WebApi\Bank.Services\bin\Debug\netcoreapp3.0\Bank.Persistence.dll
+c:\Git\Bank_WebApi\Bank.Services\bin\Debug\netcoreapp3.0\Bank.Contracts.pdb
+c:\Git\Bank_WebApi\Bank.Services\bin\Debug\netcoreapp3.0\Bank.Domain.pdb
+c:\Git\Bank_WebApi\Bank.Services\bin\Debug\netcoreapp3.0\Bank.Persistence.pdb
+c:\Git\Bank_WebApi\Bank.Services\obj\Debug\netcoreapp3.0\Bank.Services.csproj.CopyComplete
+c:\Git\Bank_WebApi\Bank.Services\obj\Debug\netcoreapp3.0\Bank.Services.dll
+c:\Git\Bank_WebApi\Bank.Services\obj\Debug\netcoreapp3.0\Bank.Services.pdb

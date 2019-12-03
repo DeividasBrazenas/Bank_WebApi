@@ -1,0 +1,7 @@
+c:\Git\Bank_WebApi\Bank.Contracts\bin\Debug\netcoreapp3.0\Bank.Contracts.deps.json
+c:\Git\Bank_WebApi\Bank.Contracts\bin\Debug\netcoreapp3.0\Bank.Contracts.dll
+c:\Git\Bank_WebApi\Bank.Contracts\bin\Debug\netcoreapp3.0\Bank.Contracts.pdb
+c:\Git\Bank_WebApi\Bank.Contracts\obj\Debug\netcoreapp3.0\Bank.Contracts.AssemblyInfoInputs.cache
+c:\Git\Bank_WebApi\Bank.Contracts\obj\Debug\netcoreapp3.0\Bank.Contracts.AssemblyInfo.cs
+c:\Git\Bank_WebApi\Bank.Contracts\obj\Debug\netcoreapp3.0\Bank.Contracts.dll
+c:\Git\Bank_WebApi\Bank.Contracts\obj\Debug\netcoreapp3.0\Bank.Contracts.pdb
