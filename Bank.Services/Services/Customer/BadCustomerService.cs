@@ -59,18 +59,18 @@
             return customer == null ? null : _customerMapper.MapToResponse(customer);
         }
 
-        public async Task<List<AccountResponse>> GetCustomersAccounts(int id)
+        public async Task<List<AccountResponse>> GetCustomerAccounts(int id)
         {
-            var accounts = await _customerDataAgent.GetCustomersAccounts(id);
+            var accounts = await _customerDataAgent.GetCustomerAccounts(id);
 
             _logger.Information($"Customer's accounts retrieved. Count - {accounts.Count}");
 
             return accounts.Select(x => _accountMapper.MapToResponse(x)).ToList();
         }
 
-        public async Task<List<LoanResponse>> GetCustomersLoans(int id)
+        public async Task<List<LoanResponse>> GetCustomerLoans(int id)
         {
-            var loans = await _customerDataAgent.GetCustomersLoans(id);
+            var loans = await _customerDataAgent.GetCustomerLoans(id);
 
             _logger.Information($"Customer's loans retrieved. Count - {loans.Count}");
 

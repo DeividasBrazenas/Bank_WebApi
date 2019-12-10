@@ -1,14 +1,11 @@
 ﻿namespace Bank.WebApi.Controllers
 {
     using System.Collections.Generic;
-    using System.Linq;
     using System.Threading.Tasks;
-    using Contracts;
     using Contracts.Request;
     using Contracts.Response;
     using Microsoft.AspNetCore.Mvc;
     using Middleware.Filters;
-    using Services.Mappers;
     using Services.Services.Loan;
 
     [ProducesResponseType(typeof(ErrorDetailsResponse), 500)]

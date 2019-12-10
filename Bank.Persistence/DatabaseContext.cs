@@ -24,11 +24,6 @@
             return base.SaveChangesAsync();
         }
 
-        EntityEntry<T> IDatabaseContext.Entry<T>(T entity)
-        {
-            return base.Entry(entity);
-        }
-
         public DatabaseContext(DbContextOptions options) : base(options)
         {
             ChangeTracker.Tracked += OnEntityTracked;

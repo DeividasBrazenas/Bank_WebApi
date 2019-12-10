@@ -1,6 +1,5 @@
 ﻿namespace Bank.Services.Mappers.Accounts
 {
-    using Contracts.Enums;
     using Contracts.Request;
     using Contracts.Response;
     using Domain.Entities;
@@ -20,7 +19,7 @@
                 CustomerId = account.CustomerId,
                 Number = account.Number,
                 Balance = account.Balance,
-                Type = account.Type
+                Type = (BankingType)account.Type
             };
         }
 
@@ -32,7 +31,7 @@
                 CustomerId = account.CustomerId,
                 Number = account.Number,
                 Balance = account.Balance,
-                Type = (BankingType)account.Type
+                Type = (Contracts.Enums.BankingType)account.Type
             };
         }
     }

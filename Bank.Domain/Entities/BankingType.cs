@@ -1,4 +1,4 @@
-﻿namespace Bank.Domain.Enums
+﻿namespace Bank.Domain.Entities
 {
     public enum BankingType
     {

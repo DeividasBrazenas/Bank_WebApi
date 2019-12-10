@@ -1,7 +1,6 @@
 ﻿namespace Bank.Domain.Entities
 {
     using System;
-    using Enums;
 
     public abstract class BaseEntity
     {

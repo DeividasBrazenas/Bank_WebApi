@@ -3,7 +3,6 @@
     using System.Collections.Generic;
     using System.Text.RegularExpressions;
     using System.Threading.Tasks;
-    using Contracts;
     using Contracts.Request;
     using Contracts.Response;
     using Microsoft.AspNetCore.Mvc;

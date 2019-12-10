@@ -47,14 +47,14 @@
             return customer == null ? null : _customerMapper.MapToDomain(customer);
         }
 
-        public async Task<List<Account>> GetCustomersAccounts(int id)
+        public async Task<List<Account>> GetCustomerAccounts(int id)
         {
             var accounts = await _customerRepository.GetCustomersAccounts(id);
 
             return accounts.Select(x => _accountMapper.MapToDomain(x)).ToList();
         }
 
-        public async Task<List<Loan>> GetCustomersLoans(int id)
+        public async Task<List<Loan>> GetCustomerLoans(int id)
         {
             var loans = await _customerRepository.GetCustomersLoans(id);
 

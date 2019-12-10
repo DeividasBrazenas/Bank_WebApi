@@ -3,7 +3,7 @@
     using System;
     using Objects;
 
-    public class Loan : BaseObject
+    public abstract class Loan : BaseObject
     {
         public int CustomerId { get; set; }
 

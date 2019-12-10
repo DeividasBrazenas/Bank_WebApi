@@ -2,8 +2,6 @@ namespace Bank.UnitTests.Accounts
 {
     using System.Collections.Generic;
     using Domain.Objects.Account;
-    using Moq;
-    using Serilog;
     using Services.DomainServices.Account;
     using Services.Exceptions;
     using Xunit;

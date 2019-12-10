@@ -3,7 +3,6 @@
     using System.Collections.Generic;
     using System.Text.RegularExpressions;
     using System.Threading.Tasks;
-    using Contracts;
     using Contracts.Request;
     using Contracts.Response;
     using Microsoft.AspNetCore.Mvc;
@@ -89,7 +88,7 @@
         [ProducesResponseType(404)]
         public async Task<IActionResult> GetAccounts([FromRoute] int id)
         {
-            return HandleResponse(await _customerService.GetCustomersAccounts(id));
+            return HandleResponse(await _customerService.GetCustomerAccounts(id));
         }
 
         [HttpGet]
@@ -99,7 +98,7 @@
         [ProducesResponseType(404)]
         public async Task<IActionResult> GetLoans([FromRoute] int id)
         {
-            return HandleResponse(await _customerService.GetCustomersLoans(id));
+            return HandleResponse(await _customerService.GetCustomerLoans(id));
         }
 
         private IActionResult HandleResponse(object response)

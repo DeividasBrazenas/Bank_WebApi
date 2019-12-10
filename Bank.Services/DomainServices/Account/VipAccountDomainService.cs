@@ -4,7 +4,6 @@
     using System.Linq;
     using Domain.Objects.Account;
     using Exceptions;
-    using Serilog;
 
     public class VipAccountDomainService : IAccountDomainService
     {

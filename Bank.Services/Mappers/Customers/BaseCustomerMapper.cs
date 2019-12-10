@@ -1,6 +1,5 @@
 ﻿namespace Bank.Services.Mappers.Customers
 {
-    using Contracts.Enums;
     using Contracts.Request;
     using Contracts.Response;
     using Domain.Entities;
@@ -21,7 +20,7 @@
                 LastName = customer.LastName,
                 PersonalNumber = customer.PersonalNumber,
                 MonthlySalary = customer.MonthlySalary,
-                Type = customer.Type
+                Type = (BankingType)customer.Type
             };
         }
 
@@ -34,7 +33,7 @@
                 LastName = customer.LastName,
                 PersonalNumber = customer.PersonalNumber,
                 MonthlySalary = customer.MonthlySalary,
-                Type = (BankingType)customer.Type
+                Type = (Contracts.Enums.BankingType)customer.Type
             };
         }
     }

@@ -4,7 +4,6 @@
     using System.IO;
     using System.Net;
     using System.Threading.Tasks;
-    using Contracts;
     using Contracts.Response;
     using Microsoft.AspNetCore.Http;
     using Microsoft.AspNetCore.Http.Extensions;

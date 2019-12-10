@@ -4,8 +4,6 @@
     using System.Collections.Generic;
     using Domain.Objects.Customer;
     using Domain.Objects.Loan;
-    using Moq;
-    using Serilog;
     using Services.DomainServices.Loan;
     using Services.Exceptions;
     using Xunit;

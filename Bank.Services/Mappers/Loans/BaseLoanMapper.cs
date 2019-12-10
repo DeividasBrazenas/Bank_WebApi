@@ -1,6 +1,5 @@
 ﻿namespace Bank.Services.Mappers.Loans
 {
-    using Contracts.Enums;
     using Contracts.Request;
     using Contracts.Response;
     using Domain.Entities;
@@ -22,7 +21,7 @@
                 LoanAmount = loan.LoanAmount,
                 LoanStart = loan.LoanStart,
                 LoanEnd = loan.LoanEnd,
-                Type = loan.Type
+                Type = (BankingType)loan.Type
             };
         }
 
@@ -36,7 +35,7 @@
                 LoanAmount = loan.LoanAmount,
                 LoanStart = loan.LoanStart,
                 LoanEnd = loan.LoanEnd,
-                Type = (BankingType)loan.Type
+                Type = (Contracts.Enums.BankingType)loan.Type
             };
         }
     }

@@ -2,7 +2,7 @@
 {
     using Objects;
 
-    public class Customer : BaseObject
+    public abstract class Customer : BaseObject
     {
         public string FirstName { get; set; }
 

@@ -13,9 +13,9 @@
 
         Task<CustomerResponse> GetCustomerById(int id);
 
-        Task<List<AccountResponse>> GetCustomersAccounts(int id);
+        Task<List<AccountResponse>> GetCustomerAccounts(int id);
 
-        Task<List<LoanResponse>> GetCustomersLoans(int id);
+        Task<List<LoanResponse>> GetCustomerLoans(int id);
 
         Task<CustomerResponse> UpdateCustomer(int id, CustomerRequest customer);
 

@@ -4,7 +4,6 @@
     using System.Linq;
     using Domain.Objects.Customer;
     using Exceptions;
-    using Serilog;
 
     public class StandardCustomerDomainService : ICustomerDomainService
     {

@@ -2,8 +2,6 @@
 {
     using System.Collections.Generic;
     using Domain.Objects.Customer;
-    using Moq;
-    using Serilog;
     using Services.DomainServices.Customer;
     using Services.Exceptions;
     using Xunit;

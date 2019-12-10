@@ -3,9 +3,8 @@
     using System;
     using System.Collections.Generic;
     using Contracts.Response;
-    using Domain.Enums;
     using Domain.Objects;
-    using Serilog.Core;
+    using Domain.Objects.Enums;
 
     public class LogMapper : ILogMapper
     {

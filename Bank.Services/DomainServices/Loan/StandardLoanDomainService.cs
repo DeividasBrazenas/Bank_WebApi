@@ -5,7 +5,6 @@
     using Domain.Objects.Loan;
     using Exceptions;
     using Extensions;
-    using Serilog;
 
     public class StandardLoanDomainService : ILoanDomainService
     {

@@ -1,4 +1,4 @@
-﻿namespace Bank.Domain.Enums
+﻿namespace Bank.Domain.Objects.Enums
 {
     public enum LogLevel
     {
