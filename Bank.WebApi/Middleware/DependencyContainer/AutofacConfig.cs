@@ -59,6 +59,14 @@
             containerBuilder.RegisterType<StandardCustomerDomainService>().As<ICustomerDomainService>().InstancePerDependency();
             containerBuilder.RegisterType<StandardLoanDomainService>().As<ILoanDomainService>().InstancePerDependency();
 
+            //containerBuilder.RegisterType<VipAccountMapper>().As<IAccountMapper>().InstancePerDependency();
+            //containerBuilder.RegisterType<VipCustomerMapper>().As<ICustomerMapper>().InstancePerDependency();
+            //containerBuilder.RegisterType<VipLoanMapper>().As<ILoanMapper>().InstancePerDependency();
+
+            //containerBuilder.RegisterType<VipAccountDomainService>().As<IAccountDomainService>().InstancePerDependency();
+            //containerBuilder.RegisterType<VipCustomerDomainService>().As<ICustomerDomainService>().InstancePerDependency();
+            //containerBuilder.RegisterType<VipLoanDomainService>().As<ILoanDomainService>().InstancePerDependency();
+
             containerBuilder.RegisterType<LogDataAgent>().As<ILogDataAgent>().InstancePerDependency();
             containerBuilder.RegisterType<LogMapper>().As<ILogMapper>().InstancePerDependency();
             containerBuilder.RegisterType<LogService>().As<ILogService>().InstancePerDependency();
